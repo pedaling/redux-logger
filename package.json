@@ -5,6 +5,7 @@
   "main": "dist/redux-logger.js",
   "module": "dist/redux-logger.es.js",
   "jsnext:main": "dist/redux-logger.es.js",
+  "sideEffects": false,
   "scripts": {
     "lint": "eslint src",
     "test": "npm run lint && npm run spec",
